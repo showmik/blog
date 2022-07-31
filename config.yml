@@ -7,7 +7,7 @@ enableRobotsTXT: true
 menu:
   main:
     - identifier: posts
-      url: /posts/
+      url: /content/posts/
       pre: ""
       post: ""
       name: Posts
