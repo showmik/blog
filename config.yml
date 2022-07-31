@@ -1,3 +1,14 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Intisar Bin Naim
+theme: gokarna
+
+enableRobotsTXT: true
+menu:
+  main:
+    - identifier: posts
+      url: /posts/
+      pre: ""
+      post: ""
+      name: Posts
+      weight: 1
