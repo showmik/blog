@@ -1,8 +1,8 @@
 baseURL: https://
-defaultContentLanguage: en
-languageCode: en
-title: My New Hugo Site
+languageCode: en-us
+title: Intisar Bin Naim
 theme: gokarna
+
 enableRobotsTXT: true
 menu:
   main:
@@ -23,4 +23,3 @@ menu:
 
     - params:
       avatarURL: /images/avatar.jpg
-
