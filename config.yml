@@ -2,8 +2,10 @@ baseURL: https://
 languageCode: en-us
 title: Intisar Bin Naim
 theme: gokarna
-
+defaultContentLanguage: en
+enableEmoji: true
 enableRobotsTXT: true
+pygmentsStyle: monokai
 menu:
   main:
     - identifier: posts
@@ -26,10 +28,19 @@ params:
   avatarSize: "size-m"
   description: Learning is earning.
   accentColor: "#FF4D4D"
-  customHeadHTML: ""
+
+  socialIcons:
+    - name: twitter
+      url: https://twitter.com/showmik_h
+    - name: linkedin
+      url: https://www.linkedin.com/in/intisarbn/
+    - name: stackoverflow
+      url: https://example.com
+    - name: instagram
+      url: https://www.instagram.com/showmik.h/
+    - name: email
+      url: mailto:showmik.haque@gmail.com
+
   metaKeywords:
     - blog
-    - gokarna
-    - hugo
-  showPostsOnHomePage: ""
-  footer: The Marauders
+  footer: Intisar Bin Naim
