@@ -7,14 +7,14 @@ enableRobotsTXT: true
 menu:
   main:
     - identifier: posts
-      url: /content/posts/
+      url: /intisarbnaim.com/posts/
       pre: ""
       post: ""
       name: Posts
       weight: 1
     - identifier: tags
       name: Tags
-      url: /tags/
+      url: /intisarbnaim.com/tags/
       weight: 2
     - identifier: github
       url: https://github.com/showmik
