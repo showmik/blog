@@ -1,8 +1,8 @@
-baseURL: https://www.intisarbnaim.com/
-languageCode: en-us
-title: Intisar Bin Naim
+baseURL: https://
+defaultContentLanguage: en
+languageCode: en
+title: My New Hugo Site
 theme: gokarna
-
 enableRobotsTXT: true
 menu:
   main:
@@ -12,3 +12,15 @@ menu:
       post: ""
       name: Posts
       weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+    - identifier: github
+      url: https://github.com/showmik
+      weight: 3
+      pre: <span data-feather='github'></span>
+
+    - params:
+      avatarURL: /images/avatar.jpg
+
