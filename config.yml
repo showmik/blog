@@ -21,5 +21,15 @@ menu:
       weight: 3
       pre: <span data-feather='github'></span>
 
-    - params:
-      avatarURL: /intisarbnaim.com/images/avatar.jpg
+params:
+  avatarURL: "/images/avatar.jpg"
+  avatarSize: "size-m"
+  description: Learning is earning.
+  accentColor: "#FF4D4D"
+  customHeadHTML: ""
+  metaKeywords:
+    - blog
+    - gokarna
+    - hugo
+  showPostsOnHomePage: ""
+  footer: The Marauders
