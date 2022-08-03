@@ -1,4 +1,4 @@
-baseURL: https://
+baseURL: https://intisarbnaim.com
 languageCode: en
 title: Intisar Bin Naim
 theme: gokarna
@@ -10,14 +10,14 @@ pygmentsStyle: monokai
 menu:
   main:
     - identifier: posts
-      url: /intisarbnaim.com/posts/
+      url: /posts/
       pre: ""
       post: ""
       name: Posts
       weight: 1
     - identifier: tags
       name: Tags
-      url: /intisarbnaim.com/tags/
+      url: /tags/
       weight: 2
     - identifier: github
       url: https://github.com/showmik
