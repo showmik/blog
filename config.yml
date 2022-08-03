@@ -1,4 +1,4 @@
-baseURL: https://intisarbnaim.com
+baseURL: https://
 languageCode: en
 title: Intisar Bin Naim
 theme: gokarna
@@ -6,6 +6,7 @@ defaultContentLanguage: en
 enableEmoji: true
 enableRobotsTXT: true
 pygmentsStyle: monokai
+
 menu:
   main:
     - identifier: posts
