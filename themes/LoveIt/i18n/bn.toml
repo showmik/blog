@@ -1,0 +1,202 @@
+# Translations for French
+# Traductions pour le français
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === baseof ==
+[backToTop]
+other = "উপরে ব্যাক করুন"
+
+[viewComments]
+other = "Afficher les Commentaires"
+# === baseof ==
+
+# === Post ===
+[posts]
+other = "পোস্টস"
+# === Post ===
+
+# === Taxonomy ===
+[allSome]
+other = "সব {{ .Some }}"
+
+[tag]
+other = "ট্যাগ"
+
+[tags]
+other = "ট্যাগ"
+
+[category]
+other = "ক্যাটাগরি"
+
+[categories]
+other = "ক্যাটাগরি"
+# === Taxonomy ===
+
+# === Pagination ===
+[more]
+other = "আরো"
+# === Pagination ===
+
+# === partials/header.html ===
+[selectLanguage]
+other = "ভাষা সিলেক্ট করুন"
+
+[switchTheme]
+other = "Changer de Thème"
+# === partials/header.html ===
+
+# === partials/footer.html ===
+[poweredBySome]
+other = "Propulsé par {{ .Hugo }} | Thème - {{ .Theme }}"
+# === partials/footer.html ===
+
+# === partials/comment.html ===
+[valineLang]
+other = "en"
+
+[valinePlaceholder]
+other = "Votre commentaire ..."
+
+[facebookLanguageCode]
+other = "bn"
+
+[giscusLang]
+other = "bn"
+# === partials/comment.html ===
+
+# === partials/assets.html ===
+[search]
+other = "Chercher"
+
+[searchPlaceholder]
+other = "Rechercher des titres, des contenus..."
+
+[clear]
+other = "Clair"
+
+[cancel]
+other = "Annuler"
+
+[noResultsFound]
+other = "Aucun résultat trouvé"
+
+[lunrLanguageCode]
+other = "fr"
+
+[lunrLanguageLib]
+other = "lib/lunr/lunr.fr.js"
+
+[copyToClipboard]
+other = "Copier dans le presse-papiers"
+
+[cookieconsentMessage]
+other = "Ce site Web utilise des Cookies pour améliorer votre expérience."
+
+[cookieconsentDismiss]
+other = "Se mettre d'accord"
+
+[cookieconsentLink]
+other = "Apprendre encore plus"
+# === partials/assets.html ===
+
+# === partials/plugin/share.html ===
+[shareOn]
+other = "Partager sur"
+# === partials/plugin/share.html ===
+
+# === posts/single.html ===
+[contents]
+other = "কন্টেন্ট"
+
+[publishedOnDate]
+other = "পাবলিশ {{ .Date }}"
+
+[includedInCategories]
+other = "inclus dans {{ .Categories }}"
+
+[wordCount]
+one = "এক শব্দ"
+other = "{{ .Count }} শব্দ"
+
+[readingTime]
+one = "এক মিনিট"
+other = "{{ .Count }} মিনিট"
+
+[views]
+other = "ভিউ"
+
+[author]
+other = "লেখক"
+
+[updatedOnDate]
+other = "লাস্ট আপডেট {{ .Date }}"
+
+[readMarkdown]
+other = "মার্কডাউন পড়ুন"
+
+[back]
+other = "ব্যাক"
+
+[home]
+other = "হোম"
+
+[readMore]
+other = "আরো পড়ুন"
+# === posts/single.html ===
+
+# === 404.html ===
+[pageNotFound]
+other = "পেজটি পাওয়া যায়নি"
+
+[pageNotFoundText]
+other = "Désolé, la page recherchée n'existe pas."
+# === 404.html ===
+
+# === shortcodes/admonition.html ===
+[note]
+other = "নোট"
+
+[abstract]
+other = "Abstrait"
+
+[info]
+other = "Info"
+
+[tip]
+other = "Astuces"
+
+[success]
+other = "Succès"
+
+[question]
+other = "Question"
+
+[warning]
+other = "Avertissement"
+
+[failure]
+other = "Échec"
+
+[danger]
+other = "Danger"
+
+[bug]
+other = "Bug"
+
+[example]
+other = "Exemple"
+
+[quote]
+other = "Citation"
+# === shortcodes/admonition.html ===
+
+# === shortcodes/version.html ===
+[new]
+other = "NOUVEAU"
+
+[changed]
+other = "CHANGE"
+
+[deleted]
+other = "EFFACE"
+# === shortcodes/version.html ===
