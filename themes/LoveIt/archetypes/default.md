@@ -4,7 +4,7 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: ""
+author: "Intisar Bin Naim"
 authorLink: ""
 description: ""
 license: ""
@@ -41,7 +41,7 @@ share:
   enable: true
   # ...
 comment:
-  enable: true
+  enable: false
   # ...
 library:
   css:

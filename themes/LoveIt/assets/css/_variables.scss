@@ -16,16 +16,18 @@
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url("/fonts/Inter-Regular.ttf"),
-    url("/fonts/Inter-Bold.ttf");
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/Atkinson-Hyperlegible-Regular-102.ttf"),
+    url("/fonts/Atkinson-Hyperlegible-Bold-102.ttf"),
+    url("/fonts/Atkinson-Hyperlegible-Italic-102.ttf"),
+    url("/fonts/Atkinson-Hyperlegible-Regular-102.ttf");
 }
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: Inter, system-ui, -apple-system, Noto Sans Bengali, Segoe UI,
+$global-font-family: Atkinson Hyperlegible, system-ui, -apple-system, Noto Sans Bengali, Segoe UI,
   Roboto, Emoji, Helvetica, Arial, sans-serif !default;
-$global-font-size: 18px !default;
+$global-font-size: 16px !default;
 $global-font-weight: 400 !default;
 $global-line-height: 1.5rem !default;
 

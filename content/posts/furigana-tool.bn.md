@@ -1,15 +1,16 @@
 ---
-title: "Furigana Tool"
+title: "ফুরিগানা টুল"
 date: 2022-08-05T03:18:25+06:00
+projects: ["ফুরিগানা টুল"]
 ---
 
-# Furigana Tool
+# ফুরিগানা টুল
 
 **Furigana Tool** automates the process of writing HTML code for Furigana with *[ruby](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)* syntax. It uses a modified version of the **[Gem](https://github.com/helephant/Gem)** library and adds a User Interface to it.
 
 This tool was intended to be used along with the **[HTML Table Generator](https://github.com/showmik/html-table-generator)** for one of my projects.
 
-## The Ruby Syntax
+## রুবি সিনট্যাক্স
 
 > "A ruby annotation is a small extra text, attached to the main text to indicate the pronunciation or meaning of the corresponding characters. This kind of annotation is often used in Japanese publications." — W3Schools
 

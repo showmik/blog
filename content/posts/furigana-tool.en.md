@@ -1,9 +1,10 @@
 ---
 title: "Furigana Tool"
 date: 2022-08-05T03:18:25+06:00
+tags: ["WPF", "Japanese"]
 ---
 
-# Furigana Tool Bangla
+# Furigana Tool
 
 **Furigana Tool** automates the process of writing HTML code for Furigana with *[ruby](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)* syntax. It uses a modified version of the **[Gem](https://github.com/helephant/Gem)** library and adds a User Interface to it.
 
@@ -19,7 +20,7 @@ For example, let's consider the word *Furigana*:
 
 To create something like this in HTML, we can write:
 
-```
+```HTML
 <ruby><rb>振</rb><rt>ふ</rt><rb>り</rb><rt></rt><rb>仮</rb><rt>が</rt><rb>名</rb><rt>な</rt></ruby>
 ```
 
@@ -35,7 +36,7 @@ Or the word *Dai ni kan (Volume 2)*:
 
 HTML:
 
-```
+```HTML
 <ruby><rb>第</rb><rt>たい</rt><rb>2</rb><rt></rt><rb>巻</rb><rt>かん</rt></ruby>
 ```
 

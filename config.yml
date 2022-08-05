@@ -1,15 +1,15 @@
-baseURL: https://intisarbnaim.com/
+baseURL: https://intisarbnaim.com
 theme: LoveIt
-title: intisarbnaim
+title: Intisar Bin Naim
 defaultContentLanguage: en
 languageCode: en
 languageName: English
 hasCJKLanguage: false
 paginate: 12
-googleAnalytics: ""
+googleAnalytics: "UA-236106105-1"
 copyright: ""
 enableRobotsTXT: true
-enableGitInfo: true
+enableGitInfo: false
 enableEmoji: true
 ignoreErrors:
   - error-remote-getjson
@@ -18,6 +18,11 @@ author:
   name: Intisar Bin Naim
   email: showmik.haque@gmail.com
   link: ""
+
+taxonomies:
+  tag: tags
+  category: categories
+
 menu:
   main:
     - weight: 1
@@ -28,24 +33,32 @@ menu:
       url: /posts/
       title: ""
     - weight: 2
+      identifier: projects
+      pre: ""
+      post: ""
+      name: Projects
+      url: /projects/
+      title: ""
+    - weight: 3
       identifier: tags
       pre: ""
       post: ""
       name: Tags
       url: /tags/
       title: ""
-    - weight: 3
+    - weight: 4
       identifier: categories
       pre: ""
       post: ""
       name: Categories
       url: /categories/
       title: ""
+    
 params:
-  defaultTheme: auto
-  gitRepo: https://github.com/dillonzq/LoveIt
+  defaultTheme: light
+  gitRepo: https://github.com/showmik/blog
   fingerprint: ""
-  dateFormat: 2006-01-02
+  dateFormat: 02-01-2006
   title: intisarbnaim
   description: Hugo theme - LoveIt
   images:
@@ -70,11 +83,11 @@ params:
     license: false
   section:
     paginate: 20
-    dateFormat: 01-02
+    dateFormat: January 02
     rss: 10
   list:
     paginate: 20
-    dateFormat: 01-02
+    dateFormat: January 02
     rss: 10
   app:
     title: Intisar Bin Naim
@@ -85,7 +98,7 @@ params:
     tileColor: "#da532c"
   search:
     enable: true
-    type: algolia
+    type: lunr
     contentLength: 4000
     placeholder: ""
     maxResultLength: 10
@@ -101,7 +114,7 @@ params:
     profile:
       enable: true
       gravatarEmail: ""
-      avatarURL: images/avatar.jpg
+      avatarURL: /images/avatar.jpg
       title: ""
       subtitle: A Clean, Elegant but Advanced Hugo Theme
       typeit: true
@@ -152,23 +165,23 @@ params:
       scale: true
       fullscreen: true
     share:
-      enable: false
+      enable: true
       Twitter: true
       Facebook: true
-      Linkedin: false
-      Whatsapp: false
+      Linkedin: true
+      Whatsapp: true
       Pinterest: false
       Tumblr: false
-      HackerNews: true
-      Reddit: false
+      HackerNews: false
+      Reddit: true
       VK: false
       Buffer: false
       Xing: false
-      Line: true
+      Line: false
       Instapaper: false
       Pocket: false
       Flipboard: false
-      Weibo: true
+      Weibo: false
       Blogger: false
       Baidu: false
       Odnoklassniki: false
@@ -188,7 +201,7 @@ params:
         clientId: ""
         clientSecret: ""
       valine:
-        enable: true
+        enable: false
         appId: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI
         appKey: WBmoGyJtbqUswvfLh6L8iEBr
         placeholder: ""
@@ -361,20 +374,27 @@ languages:
           url: /posts/
           title: ""
         - weight: 2
+          identifier: projects
+          pre: ""
+          post: ""
+          name: Projects
+          url: /projects/
+          title: ""
+        - weight: 3
           identifier: tags
           pre: ""
           post: ""
           name: Tags
           url: /tags/
-          title: ""
-        - weight: 3
+          title: tag
+        - weight: 4
           identifier: categories
           pre: ""
           post: ""
           name: Categories
           url: /categories/
           title: ""
-        - weight: 4
+        - weight: 5
           identifier: github
           pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
           post: ""
@@ -400,18 +420,17 @@ languages:
         profile:
           enable: true
           gravatarEmail: ""
-          avatarURL: images/avatar.jpg
+          avatarURL: /images/avatar.jpg
           title: ""
-          subtitle: A Clean, Elegant but Advanced Hugo Theme
+          subtitle: It’s time to meet the geek.
           typeit: true
           social: true
           disclaimer: ""
       social:
         GitHub: showmik
         Twitter: showmik_h
-        Instagram: xxxx
+        Instagram: showmik.h
         Facebook: showmik1
-        Telegram: xxxx
         Email: showmik.haque@gmail.com
   bn:
     weight: 2
@@ -430,20 +449,27 @@ languages:
           url: /posts/
           title: ""
         - weight: 2
+          identifier: projects
+          pre: ""
+          post: ""
+          name: প্রজেক্ট
+          url: /projects/
+          title: ""
+        - weight: 3
           identifier: tags
           pre: ""
           post: ""
           name: ট্যাগ
           url: /tags/
           title: ""
-        - weight: 3
+        - weight: 4
           identifier: categories
           pre: ""
           post: ""
           name: ক্যাটাগরি
           url: /categories/
           title: ""
-        - weight: 4
+        - weight: 5
           identifier: github
           pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
           post: ""
@@ -462,8 +488,8 @@ languages:
         absoluteURL: false
         algolia:
           index: index.bn
-          appID: PASDMWALPK
-          searchKey: b42948e51daaa93df92381c8e2ac0f93
+          appID: ""
+          searchKey: ""
       home:
         rss: 10
         profile:
@@ -478,7 +504,6 @@ languages:
       social:
         GitHub: showmik
         Twitter: showmik_h
-        Instagram: xxxx
+        Instagram: showmik.h
         Facebook: showmik1
-        Telegram: xxxx
         Email: showmik.haque@gmail.com

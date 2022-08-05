@@ -31,7 +31,7 @@
             {{- partial "plugin/a.html" $options -}}
         </span>
 
-        {{- with .Site.Params.dateFormat | default "2006-01-02" | .PublishDate.Format -}}
+        {{- with .Site.Params.dateFormat | default "01-02-2006" | .PublishDate.Format -}}
             &nbsp;<span class="post-publish">
                 {{- printf `<time datetime="%v">%v</time>` . . | dict "Date" | T "publishedOnDate" | safeHTML -}}
             </span>

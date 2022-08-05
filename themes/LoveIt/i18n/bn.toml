@@ -112,7 +112,7 @@ other = "{{ .Categories }}-এ অন্তর্ভুক্ত"
 
 [wordCount]
 one = "একটি শব্দ"
-other = "{{ .Count }} শব্দ"
+other = "{{ .Count }}-টি শব্দ"
 
 [readingTime]
 one = "এক মিনিট"
@@ -125,7 +125,7 @@ other = "ভিউ"
 other = "লেখক"
 
 [updatedOnDate]
-other = "আপডেট করা হয়েছে {{ .Date }}"
+other = "{{ .Date }} তারিখে আপডেট করা হয়েছে"
 
 [readMarkdown]
 other = "মার্কডাউন পড়ুন"
