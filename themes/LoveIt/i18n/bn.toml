@@ -1,23 +1,22 @@
-# Translations for French
-# Traductions pour le français
+# Translations for English
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # === baseof ==
 [backToTop]
-other = "উপরে ব্যাক করুন"
+other = "উপরে ফিরে যান"
 
 [viewComments]
-other = "Afficher les Commentaires"
+other = "মন্তব্য দেখুন"
 # === baseof ==
 
 # === Post ===
 [posts]
-other = "পোস্টস"
+other = "পোস্ট"
 # === Post ===
 
 # === Taxonomy ===
 [allSome]
-other = "সব {{ .Some }}"
+other = "সবগুলো {{ .Some }}"
 
 [tag]
 other = "ট্যাগ"
@@ -34,7 +33,7 @@ other = "ক্যাটাগরি"
 
 # === Pagination ===
 [more]
-other = "আরো"
+other = "আরও"
 # === Pagination ===
 
 # === partials/header.html ===
@@ -42,20 +41,20 @@ other = "আরো"
 other = "ভাষা সিলেক্ট করুন"
 
 [switchTheme]
-other = "Changer de Thème"
+other = "থিম পরিবর্তন করুন"
 # === partials/header.html ===
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "Propulsé par {{ .Hugo }} | Thème - {{ .Theme }}"
+other = "Powered by {{ .Hugo }} | Theme - {{ .Theme }}"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
 [valineLang]
-other = "en"
+other = "bn"
 
 [valinePlaceholder]
-other = "Votre commentaire ..."
+other = "আপনার মন্তব্য ..."
 
 [facebookLanguageCode]
 other = "bn"
@@ -66,56 +65,53 @@ other = "bn"
 
 # === partials/assets.html ===
 [search]
-other = "Chercher"
+other = "সার্চ করুন"
 
 [searchPlaceholder]
-other = "Rechercher des titres, des contenus..."
+other = "শিরোনাম বা বিষয়বস্তু সার্চ করুন..."
 
 [clear]
-other = "Clair"
+other = "Clear"
 
 [cancel]
-other = "Annuler"
+other = "বাতিল করুন"
 
 [noResultsFound]
-other = "Aucun résultat trouvé"
+other = "কোন ফলাফল পাওয়া যায়নি"
 
 [lunrLanguageCode]
-other = "fr"
-
-[lunrLanguageLib]
-other = "lib/lunr/lunr.fr.js"
+other = "bn"
 
 [copyToClipboard]
-other = "Copier dans le presse-papiers"
+other = "ক্লিপবোর্ডে কপি করুন"
 
 [cookieconsentMessage]
-other = "Ce site Web utilise des Cookies pour améliorer votre expérience."
+other = "This website uses Cookies to improve your experience."
 
 [cookieconsentDismiss]
-other = "Se mettre d'accord"
+other = "বুঝেছি!"
 
 [cookieconsentLink]
-other = "Apprendre encore plus"
+other = "আরও জানুন"
 # === partials/assets.html ===
 
 # === partials/plugin/share.html ===
 [shareOn]
-other = "Partager sur"
+other = "শেয়ার করুন"
 # === partials/plugin/share.html ===
 
 # === posts/single.html ===
 [contents]
-other = "কন্টেন্ট"
+other = "বিষয়বস্তু"
 
 [publishedOnDate]
-other = "পাবলিশ {{ .Date }}"
+other = "প্রকাশিত {{ .Date }}"
 
 [includedInCategories]
-other = "inclus dans {{ .Categories }}"
+other = "{{ .Categories }}-এ অন্তর্ভুক্ত"
 
 [wordCount]
-one = "এক শব্দ"
+one = "একটি শব্দ"
 other = "{{ .Count }} শব্দ"
 
 [readingTime]
@@ -129,74 +125,74 @@ other = "ভিউ"
 other = "লেখক"
 
 [updatedOnDate]
-other = "লাস্ট আপডেট {{ .Date }}"
+other = "আপডেট করা হয়েছে {{ .Date }}"
 
 [readMarkdown]
-other = "মার্কডাউন পড়ুন"
+other = "মার্কডাউন পড়ুন"
 
 [back]
-other = "ব্যাক"
+other = "পেছনে"
 
 [home]
 other = "হোম"
 
 [readMore]
-other = "আরো পড়ুন"
+other = "আরও পড়ুন"
 # === posts/single.html ===
 
 # === 404.html ===
 [pageNotFound]
-other = "পেজটি পাওয়া যায়নি"
+other = "=পেজটি খুঁজে পাওয়া যায়নি"
 
 [pageNotFoundText]
-other = "Désolé, la page recherchée n'existe pas."
+other = "The page you're looking for doesn't exist. Sorry."
 # === 404.html ===
 
 # === shortcodes/admonition.html ===
 [note]
-other = "নোট"
+other = "বিঃদ্রঃ"
 
 [abstract]
-other = "Abstrait"
+other = "সারাংশ"
 
 [info]
-other = "Info"
+other = "তথ্য"
 
 [tip]
-other = "Astuces"
+other = "টিপ"
 
 [success]
-other = "Succès"
+other = "সফল"
 
 [question]
-other = "Question"
+other = "প্রশ্ন"
 
 [warning]
-other = "Avertissement"
+other = "সতর্কতা"
 
 [failure]
-other = "Échec"
+other = "ব্যর্থ"
 
 [danger]
-other = "Danger"
+other = "বিপদ"
 
 [bug]
-other = "Bug"
+other = "ত্রুটি"
 
 [example]
-other = "Exemple"
+other = "উদাহরণ"
 
 [quote]
-other = "Citation"
+other = "উদ্ধৃতি"
 # === shortcodes/admonition.html ===
 
 # === shortcodes/version.html ===
 [new]
-other = "NOUVEAU"
+other = "নতুন"
 
 [changed]
-other = "CHANGE"
+other = "পরিবর্তিত"
 
 [deleted]
-other = "EFFACE"
+other = "মুছে ফেলা হয়েছে"
 # === shortcodes/version.html ===

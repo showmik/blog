@@ -1,4 +1,4 @@
-baseURL: https://intisarbnaim.com
+baseURL: https://intisarbnaim.com/
 theme: LoveIt
 title: intisarbnaim
 defaultContentLanguage: en
@@ -16,7 +16,7 @@ ignoreErrors:
   - error-missing-instagram-accesstoken
 author:
   name: Intisar Bin Naim
-  email: ""
+  email: showmik.haque@gmail.com
   link: ""
 menu:
   main:
@@ -77,7 +77,7 @@ params:
     dateFormat: 01-02
     rss: 10
   app:
-    title: LoveIt
+    title: Intisar Bin Naim
     noFavicon: false
     svgFavicon: ""
     themeColor: "#ffffff"
@@ -101,7 +101,7 @@ params:
     profile:
       enable: true
       gravatarEmail: ""
-      avatarURL: /images/avatar.jpg
+      avatarURL: images/avatar.jpg
       title: ""
       subtitle: A Clean, Elegant but Advanced Hugo Theme
       typeit: true
@@ -152,7 +152,7 @@ params:
       scale: true
       fullscreen: true
     share:
-      enable: true
+      enable: false
       Twitter: true
       Facebook: true
       Linkedin: false
@@ -246,7 +246,7 @@ params:
     seo:
       images: []
       publisher:
-        name: xxxx
+        name: Intisar Bin Naim
         logoUrl: /images/avatar.jpg
   typeit:
     speed: 100
@@ -384,7 +384,7 @@ languages:
     params:
       search:
         enable: true
-        type: algolia
+        type: lunr
         contentLength: 4000
         placeholder: ""
         maxResultLength: 10
@@ -400,24 +400,24 @@ languages:
         profile:
           enable: true
           gravatarEmail: ""
-          avatarURL: /images/avatar.jpg
+          avatarURL: images/avatar.jpg
           title: ""
           subtitle: A Clean, Elegant but Advanced Hugo Theme
           typeit: true
           social: true
           disclaimer: ""
       social:
-        GitHub: xxxx
-        Twitter: xxxx
+        GitHub: showmik
+        Twitter: showmik_h
         Instagram: xxxx
-        Facebook: xxxx
+        Facebook: showmik1
         Telegram: xxxx
-        Email: xxxx@xxxx.com
+        Email: showmik.haque@gmail.com
   bn:
     weight: 2
     languageCode: bn
     languageName: বাংলা
-    hasCJKLanguage: true
+    hasCJKLanguage: false
     copyright: This work is licensed under a Creative Commons
       Attribution-NonCommercial 4.0 International License.
     menu:
@@ -453,7 +453,7 @@ languages:
     params:
       search:
         enable: true
-        type: algolia
+        type: lunr
         contentLength: 4000
         placeholder: ""
         maxResultLength: 10
@@ -476,9 +476,9 @@ languages:
           social: true
           disclaimer: ""
       social:
-        GitHub: xxxx
-        Twitter: xxxx
+        GitHub: showmik
+        Twitter: showmik_h
         Instagram: xxxx
-        Facebook: xxxx
+        Facebook: showmik1
         Telegram: xxxx
-        Email: xxxx@xxxx.com
+        Email: showmik.haque@gmail.com
