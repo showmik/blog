@@ -23,37 +23,45 @@
     url("/fonts/Atkinson-Hyperlegible-Regular-102.ttf");
 }
 
+@font-face {
+  font-family: "JetBrainsMonoNL";
+  src: url("/fonts/JetBrainsMonoNL-Regular.ttf"),
+    url("/fonts/JetBrainsMonoNL-Bold.ttf"),
+    url("/fonts/JetBrainsMonoNL-Italicttf"),
+    url("/fonts/JetBrainsMonoNL-BoldItalic.ttf");
+}
+
 // ========== Global ========== //
 // Font and Line Height
 $global-font-family: Atkinson Hyperlegible, system-ui, -apple-system, Noto Sans Bengali, Segoe UI,
   Roboto, Emoji, Helvetica, Arial, sans-serif !default;
-$global-font-size: 16px !default;
+$global-font-size: 18px !default;
 $global-font-weight: 400 !default;
 $global-line-height: 1.5rem !default;
 
 // Color of the background
 $global-background-color: #fff !default;
-$global-background-color-dark: #292a2d !default;
+$global-background-color-dark: #2D2424 !default;
 
 // Color of the text
 $global-font-color: #161209 !default;
-$global-font-color-dark: #b3b3bd !default;
+$global-font-color-dark: #E0C097 !default;
 
 // Color of the secondary text
 $global-font-secondary-color: #a9a9b3 !default;
-$global-font-secondary-color-dark: #737376 !default;
+$global-font-secondary-color-dark: #C18C74 !default;
 
 // Color of the link
 $global-link-color: #161209 !default;
-$global-link-color-dark: #a9a9b3 !default;
+$global-link-color-dark: #E0C097 !default;
 
 // Color of the hover link
 $global-link-hover-color: #2d96bd !default;
-$global-link-hover-color-dark: #fff !default;
+$global-link-hover-color-dark: #4ECDC4 !default;
 
 // Color of the border
-$global-border-color: #e6e6e6 !default;
-$global-border-color-dark: #363636 !default;
+$global-border-color: #d6d5d5 !default;
+$global-border-color-dark: #686868 !default;
 // ========== Global ========== //
 
 // ========== Scrollbar ========== //
@@ -98,7 +106,7 @@ $toc-content-font-size: 1rem !default;
 
 // Color of the single link
 $single-link-color: #2d96bd !default;
-$single-link-color-dark: #55bde2 !default;
+$single-link-color-dark: #4ECDC4 !default;
 
 // Color of the hover single link
 $single-link-hover-color: #ef3982 !default;
@@ -114,7 +122,7 @@ $table-thead-color-dark: #20252b !default;
 
 // Color of the blockquote
 $blockquote-color: #6bd6fd !default;
-$blockquote-color-dark: #59c5ec !default;
+$blockquote-color-dark: #4ECDC4 !default;
 // ========== Single Content ========== //
 
 // ========== Pagination ========== //
@@ -129,17 +137,17 @@ $pagination-link-hover-color-dark: #fff !default;
 
 // ========== Code ========== //
 // Font family and size of the code
-$code-font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono",
+$code-font-family: JetBrainsMonoNL, "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono",
   "Courier New", monospace !default;
 $code-font-size: 0.875rem !default;
 
 // Color of the code
 $code-color: #e74c3c !default;
-$code-color-dark: #e5bf78 !default;
+$code-color-dark: #F08CAE !default;
 
 // Color of the code background
 $code-background-color: #f5f5f5 !default;
-$code-background-color-dark: #272c34 !default;
+$code-background-color-dark: #282d35 !default;
 
 $code-info-color: #9c9c9c !default;
 $code-info-color-dark: #b1b0b0 !default;
@@ -200,7 +208,7 @@ $code-highlight-color-map: (
   /* NameVariableMagic */ "vm": #2b77fa,
   /* Literal */ "l": #2aa198,
   /* LiteralDate */ "ld": #2aa198,
-  /* LiteralString */ "s": #24a443,
+  /* LiteralString */ "s": #99c279,
   /* LiteralStringAffix */ "sa": #24a443,
   /* LiteralStringBacktick */ "sb": #24a443,
   /* LiteralStringChar */ "sc": #24a443,
@@ -244,59 +252,59 @@ $code-highlight-color-map: (
   /* TextWhitespace */ "w": #bbbbbb
 ) !default;
 $code-highlight-color-map-dark: (
-  /* Parentheses */ "p": #a9a9b3,
-  /* Keyword */ "k": #d371e3,
-  /* KeywordConstant */ "kc": #d371e3,
-  /* KeywordDeclaration */ "kd": #d371e3,
-  /* KeywordNamespace */ "kn": #d371e3,
-  /* KeywordPseudo */ "kp": #d371e3,
-  /* KeywordReserved */ "kr": #d371e3,
-  /* KeywordType */ "kt": #d371e3,
-  /* Name */ "n": #a9b2c0,
-  /* NameAttribute */ "na": #41b0f5,
+  /* Parentheses */ "p": #abb3be,
+  /* Keyword */ "k": #60afee,
+  /* KeywordConstant */ "kc": #DC6ACF,
+  /* KeywordDeclaration */ "kd": #DC6ACF,
+  /* KeywordNamespace */ "kn": #DC6ACF,
+  /* KeywordPseudo */ "kp": #DC6ACF,
+  /* KeywordReserved */ "kr": #DC6ACF,
+  /* KeywordType */ "kt": #60afee,
+  /* Name */ "n": #abb3be,
+  /* NameAttribute */ "na": #5995ED,
   /* NameBuiltin */ "nb": #19b9c4,
   /* NameBuiltinPseudo */ "bp": #ecbf6f,
   /* NameClass */ "nc": #ecbf6f,
-  /* NameConstant */ "no": #41b0f5,
+  /* NameConstant */ "no": #5995ED,
   /* NameDecorator */ "nd": #ecbf6f,
-  /* NameEntity */ "ni": #41b0f5,
-  /* NameException */ "ne": #41b0f5,
-  /* NameFunction */ "nf": #41b0f5,
+  /* NameEntity */ "ni": #5995ED,
+  /* NameException */ "ne": #5995ED,
+  /* NameFunction */ "nf": #5995ED,
   /* NameFunctionMagic */ "fm": #19b9c4,
-  /* NameLabel */ "nl": #41b0f5,
-  /* NameNamespace */ "nn": #41b0f5,
+  /* NameLabel */ "nl": #5995ED,
+  /* NameNamespace */ "nn": #5995ED,
   /* NameOther */ "nx": #a9a9b3,
-  /* NameProperty */ "py": #41b0f5,
-  /* NameTag */ "nt": #41b0f5,
-  /* NameVariable */ "nv": #41b0f5,
-  /* NameVariableClass */ "vc": #41b0f5,
-  /* NameVariableGlobal */ "vg": #41b0f5,
-  /* NameVariableInstance */ "vi": #41b0f5,
-  /* NameVariableMagic */ "vm": #41b0f5,
-  /* Literal */ "l": #2aa198,
-  /* LiteralDate */ "ld": #2aa198,
-  /* LiteralString */ "s": #8cc570,
-  /* LiteralStringAffix */ "sa": #8cc570,
-  /* LiteralStringBacktick */ "sb": #8cc570,
-  /* LiteralStringChar */ "sc": #8cc570,
-  /* LiteralStringDelimiter */ "dl": #8cc570,
-  /* LiteralStringDoc */ "sd": #8cc570,
-  /* LiteralStringDouble */ "s2": #8cc570,
-  /* LiteralStringEscape */ "se": #8cc570,
-  /* LiteralStringHeredoc */ "sh": #8cc570,
-  /* LiteralStringInterpol */ "si": #8cc570,
-  /* LiteralStringOther */ "sx": #8cc570,
-  /* LiteralStringRegex */ "sr": #8cc570,
-  /* LiteralStringSingle */ "s1": #8cc570,
-  /* LiteralStringSymbol */ "ss": #8cc570,
-  /* LiteralNumber */ "m": #db985c,
-  /* LiteralNumberBin */ "mb": #db985c,
-  /* LiteralNumberFloat */ "mf": #db985c,
-  /* LiteralNumberHex */ "mh": #db985c,
-  /* LiteralNumberInteger */ "mi": #db985c,
-  /* LiteralNumberIntegerLong */ "il": #db985c,
-  /* LiteralNumberOct */ "mo": #db985c,
-  /* Operator */ "o": #ecbf6f,
+  /* NameProperty */ "py": #5995ED,
+  /* NameTag */ "nt": #60afee,
+  /* NameVariable */ "nv": #5995ED,
+  /* NameVariableClass */ "vc": #5995ED,
+  /* NameVariableGlobal */ "vg": #5995ED,
+  /* NameVariableInstance */ "vi": #5995ED,
+  /* NameVariableMagic */ "vm": #5995ED,
+  /* Literal */ "l": #34D1BF,
+  /* LiteralDate */ "ld": #34D1BF,
+  /* LiteralString */ "s": #99c279,
+  /* LiteralStringAffix */ "sa": #99c279,
+  /* LiteralStringBacktick */ "sb": #99c279,
+  /* LiteralStringChar */ "sc": #99c279,
+  /* LiteralStringDelimiter */ "dl": #99c279,
+  /* LiteralStringDoc */ "sd": #99c279,
+  /* LiteralStringDouble */ "s2": #99c279,
+  /* LiteralStringEscape */ "se": #99c279,
+  /* LiteralStringHeredoc */ "sh": #99c279,
+  /* LiteralStringInterpol */ "si": #99c279,
+  /* LiteralStringOther */ "sx": #99c279,
+  /* LiteralStringRegex */ "sr": #99c279,
+  /* LiteralStringSingle */ "s1": #99c279,
+  /* LiteralStringSymbol */ "ss": #99c279,
+  /* LiteralNumber */ "m": #e5c07b,
+  /* LiteralNumberBin */ "mb": #e5c07b,
+  /* LiteralNumberFloat */ "mf": #e5c07b,
+  /* LiteralNumberHex */ "mh": #e5c07b,
+  /* LiteralNumberInteger */ "mi": #e5c07b,
+  /* LiteralNumberIntegerLong */ "il": #e5c07b,
+  /* LiteralNumberOct */ "mo": #e5c07b,
+  /* Operator */ "o": #e5c07b,
   /* OperatorWord */ "ow": #d371e3,
   /* Comment */ "c": #7e848f,
   /* CommentHashbang */ "ch": #7e848f,

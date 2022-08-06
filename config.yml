@@ -6,7 +6,7 @@ languageCode: en
 languageName: English
 hasCJKLanguage: false
 paginate: 12
-googleAnalytics: "UA-236106105-1"
+googleAnalytics: UA-236106105-1
 copyright: ""
 enableRobotsTXT: true
 enableGitInfo: false
@@ -17,7 +17,7 @@ ignoreErrors:
 author:
   name: Intisar Bin Naim
   email: showmik.haque@gmail.com
-  link: ""
+  link: https://intisarbnaim.com
 
 taxonomies:
   tag: tags
@@ -59,8 +59,8 @@ params:
   gitRepo: https://github.com/showmik/blog
   fingerprint: ""
   dateFormat: 02-01-2006
-  title: intisarbnaim
-  description: Hugo theme - LoveIt
+  title: Intisar Bin Naim
+  description: It's time to meet the geek.
   images:
     - /logo.png
   header:
@@ -114,7 +114,7 @@ params:
     profile:
       enable: true
       gravatarEmail: ""
-      avatarURL: /images/avatar.jpg
+      avatarURL: /images/avatar.png
       title: ""
       subtitle: A Clean, Elegant but Advanced Hugo Theme
       typeit: true
@@ -260,7 +260,7 @@ params:
       images: []
       publisher:
         name: Intisar Bin Naim
-        logoUrl: /images/avatar.jpg
+        logoUrl: /images/avatar.png
   typeit:
     speed: 100
     cursorSpeed: 1000
@@ -399,7 +399,7 @@ languages:
           pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
           post: ""
           name: ""
-          url: https://github.com/dillonzq/LoveIt
+          url: https://github.com/showmik
           title: GitHub
     params:
       search:
@@ -420,12 +420,15 @@ languages:
         profile:
           enable: true
           gravatarEmail: ""
-          avatarURL: /images/avatar.jpg
+          avatarURL: /images/avatar.png
           title: ""
           subtitle: It’s time to meet the geek.
           typeit: true
           social: true
           disclaimer: ""
+        posts:
+          enable: true
+          paginate: 6
       social:
         GitHub: showmik
         Twitter: showmik_h
@@ -474,7 +477,7 @@ languages:
           pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
           post: ""
           name: ""
-          url: https://github.com/dillonzq/LoveIt
+          url: https://github.com/showmik
           title: GitHub
     params:
       search:
@@ -495,12 +498,14 @@ languages:
         profile:
           enable: true
           gravatarEmail: ""
-          avatarURL: /images/avatar.jpg
-          title: ""
+          avatarURL: /images/avatar.png
           subtitle: শেখার চেষ্টায় আছি...
           typeit: true
           social: true
           disclaimer: ""
+        posts:
+          enable: true
+          paginate: 6
       social:
         GitHub: showmik
         Twitter: showmik_h
