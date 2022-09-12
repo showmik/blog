@@ -1,17 +1,16 @@
 ---
-title: "Make Your Internet Browsing Experience Faster and Safer"
+title: "Browse the Web More Quickly and Securely"
 date: 2022-09-12T10:09:02+06:00
 draft: false
-description: "The Internet has become a part of our existence now. You are reading this article because you are connected to the Internet. An internet connection and a browser are necessary to browse the internet. Today I'll talk about browsers and show how you can use the internet more quickly, safely, and smoothly."
 tags: ["browser", "internet"]
 categories: ["Tips and Tricks"]
 ---
 
-The internet has become a part of our existence now. The fact that you are reading this article is also because of the internet. An internet connection and a browser are necessary to browse the internet. Today I'll talk about these browsers and show how you can use the internet more quickly and safely.
+The internet has become a part of our existence now. The fact that you are reading this article is also because of the internet. An internet connection, as well as a browser, is necessary to browse the internet. Today I'll talk about these browsers and show how you can use the internet more quickly and safely.
 
 ## Selecting a Browser
 
-The first step is to select a browser. Yes, I know you are already using a browser, be it Google Chrome, Mozilla's Firefox, or any other browser. But I would suggest you use the Brave Browser. I myself have been using Brave for the past three years and am quite satisfied with it. I might sound a little biased here, but I think Brave Browser is the best for the following reasons:
+The first step is to select a browser. Yes, I know you are already using a browser, be it Google Chrome, Mozilla's Firefox, or any other browser. But I would suggest you use the Brave Browser. I have been using Brave for the past three years and I am quite satisfied with it. I might sound a little biased here, but I think the Brave browser is the best for the following reasons:
 
 <br>
 
@@ -42,13 +41,22 @@ A DNS server is like a phone book, the browser knows the IP address of a domain 
 Every browser has some privacy settings that you should change for your own security. In the case of Brave,
 
 - Set the "Trackers & ads blocking" option to Aggressive mode.
+`Settings > Shield > Trackers & ads blocking > Aggressive`
+
 - Turn on the "Send a "Do Not Track" request with your browsing traffic" option.
+`Settings > Privacy and security > Cookies and other site data > Send a "Do Not Track" request with your browsing traffic`
+
 - Keep “Standard protection” in the “Safe Browsing” options.
+`Settings > Privacy and security > Security`
+
 - Turn on the "Always use secure connections".
+`Settings > Privacy and security > Security`
 
 ## Flags
 
-Flags are experimental features of Chromium. There is nothing to be afraid of hearing the word experimental. I use flags myself and haven't encountered any problems so far. But it is better not to use any flags without proper understanding. Load `chrome://flags` in the address bar to enable flags.
+Flags are experimental features of Chromium. There is nothing to be afraid of after hearing the word experimental. I use flags myself and haven't encountered any problems so far. But it is better not to use any flags without proper understanding.
+
+> Load `chrome://flags` in the address bar to enable flags.
 
 I always recommend these two flags to everyone-
 
@@ -59,3 +67,7 @@ Those who use download managers know that browser download speeds are much slowe
 #### 2. Experimental QUIC protocol
 
 QUIC is Google's new transfer protocol. This protocol is designed to make the web faster and more efficient. QUIC Protocol works very well even on low internet speed, so turn on these flags to increase your overall internet speed.
+
+## Conclusion
+
+Doing these few things will make your browsing experience much faster and safer than before.

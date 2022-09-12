@@ -16,7 +16,7 @@ ignoreErrors:
   - error-missing-instagram-accesstoken
 author:
   name: Intisar Bin Naim
-  email: showmik.haque@gmail.com
+  email: intisarbnaim@gmail.com
   link: https://intisarbnaim.com
 
 taxonomies:
@@ -98,7 +98,7 @@ params:
     tileColor: "#da532c"
   search:
     enable: true
-    type: lunr
+    type: algolia
     contentLength: 4000
     placeholder: ""
     maxResultLength: 10
@@ -124,12 +124,12 @@ params:
       enable: true
       paginate: 6
   social:
-    GitHub: ""
-    Linkedin: ""
-    Twitter: ""
-    Instagram: ""
-    Facebook: ""
-    Telegram: ""
+    GitHub: showmik
+    Linkedin: intisarbnaim
+    Twitter: showmik_h
+    Instagram: showmik.h
+    Facebook: showmik1
+    Telegram: intisarbnaim
    
   page:
     hiddenFromHomePage: false
@@ -404,7 +404,7 @@ languages:
     params:
       search:
         enable: true
-        type: lunr
+        type: algolia
         contentLength: 4000
         placeholder: ""
         maxResultLength: 10
@@ -413,8 +413,8 @@ languages:
         absoluteURL: false
         algolia:
           index: index.en
-          appID: ""
-          searchKey: ""
+          appID: TRVL8DOQN7
+          searchKey: 2904157de91bbcda8744a8029fe1e7a0
       home:
         rss: 10
         profile:
@@ -431,10 +431,13 @@ languages:
           paginate: 6
       social:
         GitHub: showmik
+        Linkedin: intisarbnaim
         Twitter: showmik_h
         Instagram: showmik.h
         Facebook: showmik1
+        Telegram: intisarbnaim
         Email: showmik.haque@gmail.com
+
   bn:
     weight: 2
     languageCode: bn
@@ -482,7 +485,7 @@ languages:
     params:
       search:
         enable: true
-        type: lunr
+        type: algolia
         contentLength: 4000
         placeholder: ""
         maxResultLength: 10
@@ -508,7 +511,9 @@ languages:
           paginate: 6
       social:
         GitHub: showmik
+        Linkedin: intisarbnaim
         Twitter: showmik_h
         Instagram: showmik.h
         Facebook: showmik1
+        Telegram: intisarbnaim
         Email: showmik.haque@gmail.com
