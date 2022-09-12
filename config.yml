@@ -494,8 +494,8 @@ languages:
         absoluteURL: false
         algolia:
           index: index.bn
-          appID: ""
-          searchKey: ""
+          appID: TRVL8DOQN7
+          searchKey: 2904157de91bbcda8744a8029fe1e7a0
       home:
         rss: 10
         profile:
