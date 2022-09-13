@@ -2,8 +2,8 @@
 title: "আসুন C# শিখি - 01. জার্নির শুরু"
 date: 2022-09-13T13:11:09+06:00
 draft: false
-tags: ["C#"]
-categories: ["আসুন C# শিখি"]
+tags: ["C Sharp", "প্রোগ্রামিং"]
+categories: ["আসুন C Sharp শিখি"]
 ---
 
 ## কিছু কথা

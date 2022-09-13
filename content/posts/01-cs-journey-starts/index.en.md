@@ -2,8 +2,8 @@
 title: "Let’s Learn C# - 01. Journey Starts"
 date: 2022-09-13T13:11:09+06:00
 draft: false
-tags: ["C#"]
-categories: ["Let’s Learn C#"]
+tags: ["C Sharp", "Programming"]
+categories: ["Let’s Learn C Sharp"]
 ---
 
 ## Some Words
