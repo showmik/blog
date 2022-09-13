@@ -1,6 +1,6 @@
 ---
 title: "আসুন C# শিখি (02) — কেন C#"
-date: 2022-09-13T12:00:00+06:00
+date: 2022-09-14T12:00:00+06:00
 draft: false
 tags: ["C Sharp", "প্রোগ্রামিং"]
 categories: ["আসুন C Sharp শিখি"]
