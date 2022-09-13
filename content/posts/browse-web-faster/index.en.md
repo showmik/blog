@@ -2,7 +2,7 @@
 title: "Browse the Web More Quickly and Securely"
 date: 2022-09-12T10:09:02+06:00
 draft: false
-tags: ["browser", "internet"]
+tags: ["Internet"]
 categories: ["Tips and Tricks"]
 ---
 
