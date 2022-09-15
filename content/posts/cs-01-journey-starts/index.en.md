@@ -1,6 +1,8 @@
 ---
 title: "Let’s Learn C# (01) — Journey Starts"
 date: 2022-09-13T13:11:09+06:00
+lastmod: 2022-09-15
+description: "I explained why I wanted to start writing about C#." 
 draft: false
 tags: ["C Sharp", "Programming"]
 categories: ["Let’s Learn C Sharp"]

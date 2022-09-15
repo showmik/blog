@@ -1,6 +1,8 @@
 ---
-title: "Let's Learn C# (02) — Why C#"
+title: "Let's Learn C# (02) — Why C#?"
 date: 2022-09-14T00:09:40+06:00
+lastmod: 2022-09-15
+description: "This article explains why you should learn C#." 
 draft: false
 tags: ["C Sharp", "Programming"]
 categories: ["Let’s Learn C Sharp"]

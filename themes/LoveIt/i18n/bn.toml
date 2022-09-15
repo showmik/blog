@@ -46,7 +46,7 @@ other = "থিম পরিবর্তন করুন"
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "Powered by {{ .Hugo }} | Theme - {{ .Theme }}"
+other = "Powered by {{ .Hugo }} | থিম - {{ .Theme }}"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
@@ -145,12 +145,12 @@ other = "আরও পড়ুন"
 other = "=পেজটি খুঁজে পাওয়া যায়নি"
 
 [pageNotFoundText]
-other = "The page you're looking for doesn't exist. Sorry."
+other = "দুঃখিত, আপনি যে পেজটি খুঁজছেন তার কোনো অস্তিত্ব পাওয়া যায় নি।"
 # === 404.html ===
 
 # === shortcodes/admonition.html ===
 [note]
-other = "বিঃদ্রঃ"
+other = "নোট"
 
 [abstract]
 other = "সারাংশ"
@@ -159,7 +159,7 @@ other = "সারাংশ"
 other = "তথ্য"
 
 [tip]
-other = "টিপ"
+other = "টিপস"
 
 [success]
 other = "সফল"
