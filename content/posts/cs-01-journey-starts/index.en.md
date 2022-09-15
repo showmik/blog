@@ -2,6 +2,7 @@
 title: "Let’s Learn C# (01) — Journey Starts"
 date: 2022-09-13T13:11:09+06:00
 lastmod: 2022-09-15
+description: "Years ago, I once tried teaching programming to one of my younger brothers. He was interested in game development with Unity, and I am also comfortable with C#, so I started with this language. While teaching, I noticed he wanted all the resources to be in Bangla, such as Bangla courses, Bangla books, etc. Not only that, he also wanted everything to be concise. What he wanted to learn should be to the point, nothing extra. But I have a habit of going deep into something when I start to teach it to others. I could tell he didn't like this bad habit of mine at all."
 draft: false
 tags: ["C Sharp", "Programming"]
 categories: ["Let’s Learn C Sharp"]

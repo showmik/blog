@@ -2,6 +2,7 @@
 title: "Let's Learn C# (02) — Why C#?"
 date: 2022-09-14T00:09:40+06:00
 lastmod: 2022-09-15
+description: "Why learn C# when there are so many other programming languages? First of all, congratulations on choosing a popular language such as C#. Rest assured you will never regret your decision to learn the language. If you want to become a good .NET developer or work with Unity, there is no good alternative to C#. The following are other reasons why learning C# is a good idea:"
 draft: false
 tags: ["C Sharp", "Programming"]
 categories: ["Let’s Learn C Sharp"]
@@ -11,11 +12,11 @@ categories: ["Let’s Learn C Sharp"]
 
 ## Why learn C# when there are so many other programming languages?
 
-First of all, congratulations on choosing a popular language such as C#. Rest assured you will never regret your decision. If you want to become a good .NET developer or work with Unity, there is no alternative to C#.
+First of all, congratulations on choosing a popular language such as C#. Rest assured you will never regret your decision to learn the language. If you want to become a good .NET developer or work with Unity, there is no good alternative to C#.
 
 The following are other reasons why learning C# is a good idea:
 
-### 1. C# code is easy to read and use
+### 1. C# code is easy to read
 
 As a developer, you will spend far more time reading code than writing it. It'll become a problem if the code is difficult to read. But fortunately, C# is a really simple, elegant, and compact language.
 

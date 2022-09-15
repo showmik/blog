@@ -2,6 +2,7 @@
 title: "Browse the Web More Quickly and Securely"
 date: 2022-09-12T10:09:02+06:00
 lastmod: 2022-09-12
+description: "The internet has become a part of our existence now. The fact that you are reading this article is also because of the internet. An internet connection, as well as a browser, is necessary to browse the internet. Today I'll talk about these browsers and show how you can use the internet more quickly and safely."
 draft: false
 tags: ["Internet"]
 categories: ["Tips and Tricks"]
