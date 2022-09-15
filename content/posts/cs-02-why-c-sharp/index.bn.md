@@ -2,7 +2,6 @@
 title: "আসুন C# শিখি (02) — কেন C#?"
 date: 2022-09-14T00:09:40+06:00
 lastmod: 2022-09-15
-description: "এই পোস্টে কেনো আপনার C# শেখা উচিত তা নিয়ে আলোচনা করা হয়েছে।" 
 draft: false
 tags: ["C Sharp", "প্রোগ্রামিং"]
 categories: ["আসুন C Sharp শিখি"]

@@ -2,7 +2,6 @@
 title: "Browse the Web More Quickly and Securely"
 date: 2022-09-12T10:09:02+06:00
 lastmod: 2022-09-12
-description: "How you can increase your internet browing speed." 
 draft: false
 tags: ["Internet"]
 categories: ["Tips and Tricks"]

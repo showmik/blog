@@ -1,7 +1,6 @@
 ---
 title: "Let's Learn C# (03) — What is C#?"
 date: 2022-09-14T20:13:57+06:00
-description: "Brief discussion on what is C#."
 draft: false
 tags: ["C Sharp", "Programming"]
 categories: ["Let’s Learn C Sharp"]

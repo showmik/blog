@@ -1,7 +1,6 @@
 ---
 title: "আসুন C# শিখি (03) — C# কি?"
 date: 2022-09-14T20:13:57+06:00
-description: "C# কি তার সংক্ষিপ্ত আলোচনা।"
 draft: false
 tags: ["C Sharp", "প্রোগ্রামিং"]
 categories: ["আসুন C Sharp শিখি"]
