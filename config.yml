@@ -60,7 +60,7 @@ params:
   fingerprint: ""
   dateFormat: 02-01-2006
   title: Intisar Bin Naim
-  description: It's time to meet the geek.
+  description: Hi, I'm Intisar! Welcome to my personal blog. I enjoy talking about design and development.
   images:
     - /logo.png
   header:
@@ -416,6 +416,7 @@ languages:
           index: index.en
           appID: TRVL8DOQN7
           searchKey: 2904157de91bbcda8744a8029fe1e7a0
+      description: Hi, I'm Intisar! Welcome to my personal blog. I enjoy talking about design and development.
       home:
         rss: 10
         profile:
@@ -497,6 +498,7 @@ languages:
           index: index.bn
           appID: TRVL8DOQN7
           searchKey: 2904157de91bbcda8744a8029fe1e7a0
+      description: হাই, আমি ইনতিসার! আমার পার্সোনাল ব্লগে আপনাকে স্বাগতম। আমি ডিজাইন এবং ডেভেলপমেন্ট নিয়ে কথা বলতে পছন্দ করি।
       home:
         rss: 10
         profile:
