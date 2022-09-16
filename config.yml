@@ -130,6 +130,7 @@ params:
     Instagram: intisarbnaim
     Facebook: intisarbnaim
     Telegram: intisarbnaim
+    RSS: true
    
   page:
     hiddenFromHomePage: false
@@ -432,11 +433,11 @@ languages:
       social:
         GitHub: showmik
         Linkedin: intisarbnaim
-        Twitter: showmik_h
         Instagram: intisarbnaim
         Facebook: intisarbnaim
         Telegram: intisarbnaim
         Email: showmik.haque@gmail.com
+        RSS: true
 
   bn:
     weight: 2
@@ -512,8 +513,8 @@ languages:
       social:
         GitHub: showmik
         Linkedin: intisarbnaim
-        Twitter: showmik_h
         Instagram: intisarbnaim
         Facebook: intisarbnaim
         Telegram: intisarbnaim
         Email: showmik.haque@gmail.com
+        RSS: true
