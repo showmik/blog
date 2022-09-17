@@ -8,7 +8,7 @@ hasCJKLanguage: false
 paginate: 12
 googleAnalytics: UA-236106105-1
 copyright: ""
-enableRobotsTXT: true
+enableRobotsTXT: false
 enableGitInfo: false
 enableEmoji: true
 ignoreErrors:
