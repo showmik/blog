@@ -2,7 +2,7 @@
 title: "Let's Learn C# (03) — What is C#?"
 date: 2022-09-14T20:13:57+06:00
 draft: false
-description: "What is C#? C# is a general-purpose, multi-paradigm, type-safe programming language that runs on the .NET platform. Although the definition is short, there are several terms that need a little discussion. Here, the term 'general purpose' refers to the ability to do a wide range of tasks using a single language.  Here's a list of things you can do once you've learned C#:"
+description: "C# is a general-purpose, multi-paradigm, type-safe programming language that runs on the .NET platform. Although the definition is short, there are several terms that need a little discussion."
 tags: ["C Sharp", "Programming"]
 categories: ["Let’s Learn C Sharp"]
 ---

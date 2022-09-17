@@ -1,4 +1,5 @@
-# Translations for English
+# Translations for Bengali
+# বাংলার জন্য অনুবাদ
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # === baseof ==
@@ -6,7 +7,7 @@
 other = "উপরে ফিরে যান"
 
 [viewComments]
-other = "মন্তব্য দেখুন"
+other = "মন্তব্যগুলো দেখুন"
 # === baseof ==
 
 # === Post ===
@@ -16,7 +17,7 @@ other = "পোস্ট"
 
 # === Taxonomy ===
 [allSome]
-other = "সবগুলো {{ .Some }}"
+other = "সকল {{ .Some }}"
 
 [tag]
 other = "ট্যাগ"
@@ -38,29 +39,29 @@ other = "আরও"
 
 # === partials/header.html ===
 [selectLanguage]
-other = "ভাষা সিলেক্ট করুন"
+other = "ভাষা নির্বাচন"
 
 [switchTheme]
-other = "থিম পরিবর্তন করুন"
+other = "থিম পরিবর্তন"
 # === partials/header.html ===
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "Powered by {{ .Hugo }} | থিম - {{ .Theme }}"
+other = "{{ .Hugo }} দ্বারা চালিত | থিম - {{ .Theme }}"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
 [valineLang]
-other = "bn"
+other = "en"
 
 [valinePlaceholder]
 other = "আপনার মন্তব্য ..."
 
 [facebookLanguageCode]
-other = "bn"
+other = "bn_IN"
 
 [giscusLang]
-other = "bn"
+other = "en"
 # === partials/comment.html ===
 
 # === partials/assets.html ===
@@ -71,13 +72,13 @@ other = "সার্চ করুন"
 other = "শিরোনাম বা বিষয়বস্তু সার্চ করুন..."
 
 [clear]
-other = "Clear"
+other = "পরিষ্কার করুন"
 
 [cancel]
 other = "বাতিল করুন"
 
 [noResultsFound]
-other = "কোন ফলাফল পাওয়া যায়নি"
+other = "কোনো ফলাফল পাওয়া যায়নি"
 
 [lunrLanguageCode]
 other = "bn"
@@ -86,7 +87,7 @@ other = "bn"
 other = "ক্লিপবোর্ডে কপি করুন"
 
 [cookieconsentMessage]
-other = "This website uses Cookies to improve your experience."
+other = "এই ওয়েবসাইটটি আপনার ব্রাউজিং অভিজ্ঞতা সমৃদ্ধ করতে কুকিজ ব্যবহার করে।"
 
 [cookieconsentDismiss]
 other = "বুঝেছি!"
@@ -137,7 +138,7 @@ other = "পেছনে"
 other = "হোম"
 
 [readMore]
-other = "আরও পড়ুন"
+other = "আরো পড়ুন"
 # === posts/single.html ===
 
 # === 404.html ===
@@ -145,7 +146,7 @@ other = "আরও পড়ুন"
 other = "=পেজটি খুঁজে পাওয়া যায়নি"
 
 [pageNotFoundText]
-other = "দুঃখিত, আপনি যে পেজটি খুঁজছেন তার কোনো অস্তিত্ব পাওয়া যায় নি।"
+other = "দুঃখিত, আপনি যে পেজটি খুঁজছেন তার কোনো অস্তিত্ব নেই।"
 # === 404.html ===
 
 # === shortcodes/admonition.html ===
@@ -174,7 +175,7 @@ other = "সতর্কতা"
 other = "ব্যর্থ"
 
 [danger]
-other = "বিপদ"
+other = "বিপজ্জনক"
 
 [bug]
 other = "ত্রুটি"
@@ -183,7 +184,7 @@ other = "ত্রুটি"
 other = "উদাহরণ"
 
 [quote]
-other = "উদ্ধৃতি"
+other = "উক্তি"
 # === shortcodes/admonition.html ===
 
 # === shortcodes/version.html ===
