@@ -87,7 +87,7 @@ params:
     rss: 10
   list:
     paginate: 20
-    dateFormat: January 02
+    dateFormat: Jan 02
     rss: 10
   app:
     title: Intisar Bin Naim
