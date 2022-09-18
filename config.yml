@@ -115,7 +115,7 @@ params:
       enable: true
       gravatarEmail: ""
       avatarURL: /images/avatar.png
-      title: ""
+      title: Intisar Bin Naim
       subtitle: It's time to meet the geek.
       typeit: true
       social: true
@@ -425,6 +425,7 @@ languages:
           enable: true
           gravatarEmail: showmik.haque@gmail.com
           avatarURL: /images/avatar.png
+          title: Intisar Bin Naim
           subtitle: It’s time to meet the geek.
           typeit: true
           social: true
@@ -509,6 +510,7 @@ languages:
           enable: true
           gravatarEmail: showmik.haque@gmail.com
           avatarURL: /images/avatar.png
+          title: ইনতিসার বিন নাইম
           subtitle: শেখার চেষ্টায় আছি...
           typeit: true
           social: true

@@ -1,4 +1,5 @@
 {{- $profile := .Site.Params.home.profile -}}
+
 <div class="home-profile">
     {{- $avatar := $profile.avatarURL -}}
     {{- with $profile.gravatarEmail -}}
@@ -21,11 +22,6 @@
         </div>
     {{- end -}}
 
-    {{- with $profile.title -}}
-        <h1 class="home-title">
-            {{- . | safeHTML -}}
-        </h1>
-    {{- end -}}
 
     {{- with $profile.subtitle -}}
         <div class="home-subtitle">
@@ -37,6 +33,12 @@
                 {{- . | safeHTML -}}
             {{- end -}}
         </div>
+    {{- end -}}
+
+    {{- with $profile.title -}}
+        <h1 class="home-title">
+            {{- . | safeHTML -}}
+        </h1>
     {{- end -}}
 
     {{- if $profile.social -}}
@@ -95,4 +97,5 @@
             {{- . | safeHTML -}}
         </h3>
     {{- end -}}
+
 </div>
