@@ -423,7 +423,7 @@ languages:
         rss: 10
         profile:
           enable: true
-          gravatarEmail: showmik.haque@gmail.com
+          gravatarEmail: ""
           avatarURL: /images/avatar.png
           title: Intisar Bin Naim
           subtitle: It’s time to meet the geek.
@@ -508,7 +508,7 @@ languages:
         rss: 10
         profile:
           enable: true
-          gravatarEmail: showmik.haque@gmail.com
+          gravatarEmail: ""
           avatarURL: /images/avatar.png
           title: ইনতিসার বিন নাইম
           subtitle: শেখার চেষ্টায় আছি...
