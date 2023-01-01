@@ -11,6 +11,8 @@
                 <i class="far fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;{{ .Title }}
             {{- else if eq $taxonomy "tag" -}}
                 <i class="fa-solid fa-tag" aria-hidden="true"></i>&nbsp;{{ .Title }}
+            {{- else if eq $taxonomy "project" -}}
+                <i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp;{{ .Title }}
             {{- else -}}
                 {{- printf "%v - %v" (T $taxonomy | default $taxonomy) .Title -}}
             {{- end -}}
