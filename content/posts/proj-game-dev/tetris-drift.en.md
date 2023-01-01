@@ -1,6 +1,6 @@
 ---
 title: "Tetris Drift"
-date: 2023-01-01T23:14:57+06:00
+date: 2020-04-15T23:14:57+06:00
 draft: false
 projects: ["Game Development"]
 tags: ["GameDev"]

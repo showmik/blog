@@ -1,6 +1,6 @@
 ---
 title: "Arrogant Invader"
-date: 2023-01-01T22:14:57+06:00
+date: 2020-04-15T22:14:57+06:00
 draft: false
 projects: ["Game Development"]
 tags: ["GameDev"]

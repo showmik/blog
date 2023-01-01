@@ -1,6 +1,6 @@
 ---
 title: "HTML Table Generator"
-date: 2023-01-01T20:14:57+06:00
+date: 2021-08-29T20:14:57+06:00
 draft: false
 projects: ["Software/App Development"]
 tags: ["Japanese"]

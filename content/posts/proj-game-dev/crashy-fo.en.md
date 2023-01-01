@@ -1,6 +1,6 @@
 ---
 title: "Crahy FO"
-date: 2023-01-01T21:14:57+06:00
+date: 2020-04-15T21:14:57+06:00
 draft: false
 projects: ["Game Development"]
 tags: ["GameDev"]
@@ -10,7 +10,7 @@ categories: ["Projects"]
 **Crashy FO** is a *[Flappy Bird](https://en.wikipedia.org/wiki/Flappy_Bird)* clone where you play as *FO* the UFO 🛸 instead of *Faby* the bird.
 
 I made this game for learning purposes along with these other clones –
-- **[Tetris Drift](https://github.com/showmik/tetris-drift)**
+- **[Tetris Drift](https://intisarbnaim.com/tetris-drift)**
 - **[Arrogant Invader](https://intisarbnaim.com/arrogant-invader)**
 
 ## Screenshots
