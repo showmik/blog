@@ -3,7 +3,8 @@ title: "Furigana Tool"
 date: 2023-01-01T20:13:57+06:00
 draft: false
 projects: ["Software/App Development"]
-tags: ["Development"]
+tags: ["Japanese"]
+categories: ["Projects"]
 ---
 
 
