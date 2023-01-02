@@ -30,6 +30,9 @@ other = "ক্যাটাগরি"
 
 [categories]
 other = "ক্যাটাগরি"
+
+[projects]
+other = "প্রজেক্ট"
 # === Taxonomy ===
 
 # === Pagination ===
