@@ -6,6 +6,7 @@ hiddenFromHomePage: true
 projects: ["Graphics Design"]
 tags: ["Graphics Design", "Company Profile", "Brochure"]
 categories: ["Projects"]
+lightgallery: true
 ---
 
 ## Description

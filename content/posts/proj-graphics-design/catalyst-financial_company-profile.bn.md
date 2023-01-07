@@ -6,6 +6,7 @@ hiddenFromHomePage: true
 projects: ["গ্রাফিক্স ডিজাইন"]
 tags: ["গ্রাফিক্স ডিজাইন", "Company Profile", "Brochure"]
 categories: ["প্রজেক্ট"]
+lightgallery: true
 ---
 
 ## Description

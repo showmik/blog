@@ -6,6 +6,7 @@ hiddenFromHomePage: true
 projects: ["Graphics Design"]
 tags: ["Graphics Design", "Brochure"]
 categories: ["Projects"]
+lightgallery: true
 ---
 
 ## Preview
